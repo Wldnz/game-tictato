@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticatato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <h1>Welcome To Our Game Sir!</h1>
+    <h2>Tictato</h2>
+    <h2 class="changeGame">Player Vs Computer</h2>
+   </header>
+    <div class="containerBox">
+        <div class="theWinnerTable gridKu">
+           <span>Who Turn Now : </span>
+           <span id="whoTurn">❌</span>
+            <button class="changeGame">🤖</button>
+            <label class="changeGame">Change Player To Robot?</label>
+        </div>
+        <div class="container">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+            <div class="box box5"></div>
+            <div class="box box6"></div>
+            <div class="box box7"></div>
+            <div class="box box8"></div>
+            <div class="box box9"></div>
+        </div>
+        <div class="theWinnerTable">
+            <p id="score">Pemain Top : DRAW </p>
+            <p id="score">Player (❌): 10 </p>
+            <p id="score">Robot (🔘) : 10 </p>    
+        </div>
+    </div>
+    <div class="theWinnerTable restartArea">
+        <button class="restart">🔄️</button>
+        <label for="">Restart Button</label>
+        <span>Restart Will Remove All Move!</span>
+    </div>
+    <br>
+    <br>
+    <div class="theWinnerTable restartArea">
+        
+        <span>If You Play With Computer Or Robot</span>
+        <span>Game still have bug!</span>
+        <span>Dont Worry!</span>
+        <span>Use Restart Button</span>
+        <span>To Fix It!!</span>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
